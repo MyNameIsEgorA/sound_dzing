@@ -5,6 +5,8 @@ import Advantages from './components/Advantages/Advantages';
 import MainPage from './components/MainPage/MainPage';
 import Posts from './components/Posts/Posts';
 import Statistic from './components/Statistic/Statistic';
+import Comments from './components/Comments/Comments';
+import Footer from './components/Footer/Footer';
 
 export const Wrapper = ({ children }) => {
     return (
@@ -21,6 +23,8 @@ export default function App() {
       <Advantages/>
       <Statistic/>
       <Posts/>
+      <Comments/>
+      <Footer/>
     </div>
   )
 }
