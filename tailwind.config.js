@@ -19,7 +19,7 @@ module.exports = {
         white: '#FFFFFF'
       },
       backgroundImage: {
-        'mobile-hero': "url('/src/images/mobile-hero.png')",
+        'hero': "url('/src/images/dr_bg.png')",
         'phone-hero': "url('/src/images/phone.png')"
       }
     },

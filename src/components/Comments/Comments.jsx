@@ -13,11 +13,13 @@ const Comments = () => {
     ))
 
     return (
-        <div className='conrainer px-8 py-[60px] bg-almost_black text-white'>
-            <h2 className=' text-2xl text-center'>What our students say?</h2>
-            <Underline color="bg-brightRed mx-auto"/>
-            <div className="mt-10 space-y-[60px]">
-                {CommentsItems}
+        <div className='bg-almost_black'>
+            <div className='mx-auto py-[60px] bg-almost_black text-white xl:w-[1200px]'>
+                <h2 className=' text-2xl'>What our students say?</h2>
+                <Underline color="bg-brightRed"/>
+                <div className="mt-10 space-y-[60px] xl:flex xl:space-y-0 xl:justify-between">
+                    {CommentsItems}
+                </div>
             </div>
         </div>
     )

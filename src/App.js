@@ -8,13 +8,6 @@ import Statistic from './components/Statistic/Statistic';
 import Comments from './components/Comments/Comments';
 import Footer from './components/Footer/Footer';
 
-export const Wrapper = ({ children }) => {
-    return (
-        <div className="container mx-auto py-4 px-2 min-h-screen">
-            { children }
-        </div>
-    )
-}
 
 export default function App() {
   return (
